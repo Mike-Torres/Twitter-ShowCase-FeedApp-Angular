@@ -1,0 +1,28 @@
+<section class="background">
+
+  <button class="font" (click)="toggleWhatContent()">
+    What does the Application Do?
+  </button>
+
+  <div *ngIf="whatContentIsVisible" class="button-font">
+    <p>This application is to let you have the opportunity to pull information and tweets from Twitter.
+      <br>The application itself is a mix between AngularJS, NodeJs(Backend), ExpressJs as an internal API.
+      <br>It utlilizes the twitter API to get user information and tweet information,
+      as well as being deployed to Heroku.
+    </p>
+  </div>
+
+  <button class="font-2" (click)="toggleWhyContent()">
+    Why Did I Create This App?
+  </button>
+
+  <div *ngIf="whyContentIsVisible" class="button-font-2">
+    <p>This application was created because I wanted to personally gain knowledge on pulling
+      information on public API's.
+      <br> This was a contemplation of using different components and using specified Angular concepts.<br>
+      The skills I can now use with any company will be:
+      <br>DOM Manipulation using Directives, Routing, Components, Services, Property & Event Binding & Dependency
+      Injections.
+    </p>
+  </div>
+</section>

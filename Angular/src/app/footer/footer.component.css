@@ -1,0 +1,14 @@
+.background{
+    background-color: rgb(43, 33, 33);
+    color: white;
+}
+
+.center {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 1110px;
+}
+.centers {
+    margin-top: 8px;
+    margin-left: 440px;
+}
