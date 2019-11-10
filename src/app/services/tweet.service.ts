@@ -8,9 +8,9 @@ import { Observable } from 'rxjs/Observable';
 })
 export class TweetService {constructor (private http:HttpClient) {}
 
-   private configUrl = 'api/tweets';
+   private configUrl = 'api/tweets'; poop
 
-    getTweets(): Observable<any> {
+    getTweets(): Observable<any> { 
        this.http.get(this.configUrl);
     }
 }
